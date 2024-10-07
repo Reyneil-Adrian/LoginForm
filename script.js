@@ -68,3 +68,12 @@ function validateSignUpForm() {
         return true; 
     }
 }
+
+function togglePasswordVisibility() {
+    const passwordField = document.getElementById("password");
+    const confirmPasswordField = document.getElementById("confirmPassword");
+    const isChecked = document.getElementById("togglePassword").checked;
+
+    passwordField.type = isChecked ? "text" : "password";
+    confirmPasswordField.type = isChecked ? "text" : "password";
+}
