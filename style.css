@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("backG.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    box-sizing: border-box;
+    margin-top: 50px; 
+}
+
+fieldset {
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h3, h4 {
+    color: #333;
+    margin: 0 0 15px 0;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    color: #666;
+    margin-left: 0;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button[type="button"] {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;
+}
